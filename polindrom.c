@@ -1,7 +1,7 @@
 #include <stdio.h>
-int main() {
+void polindrom() {
     int n, reversedN = 0, remainder, originalN;
-    printf("Enter an integer: ");
+    printf("\n\nEnter an integer: ");
     scanf("%d", &n);
     originalN = n;
     // reversed integer is stored in reversedN
@@ -15,5 +15,5 @@ int main() {
         printf("%d is a palindrome.", originalN);
     else
         printf("%d is not a palindrome.", originalN);
-    return 0;
+//    return 0;
 }

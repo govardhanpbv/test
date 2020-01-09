@@ -1,9 +1,9 @@
 #include <stdio.h>
-int main()
+void reverse()
 {
   int n, r = 0;
 
-  printf("Enter a number to reverse\n");
+  printf("\n\nEnter a number to reverse\n");
   scanf("%d", &n);
 
   while (n != 0)
@@ -15,5 +15,5 @@ int main()
 
   printf("Reverse of the number = %d\n", r);
 
-  return 0;
+//  return 0;
 }
